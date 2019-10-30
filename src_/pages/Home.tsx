@@ -20,6 +20,7 @@ import {
 import { book, build, colorFill, grid } from 'ionicons/icons';
 import React from 'react';
 import './Home.css';
+import {Link} from 'react-router-dom'
 
 const HomePage: React.FC = () => {
   return (
@@ -43,6 +44,7 @@ const HomePage: React.FC = () => {
             <p>
               Now that your app has been created, you'll want to start building out features and
               components. Check out some of the resources below for next steps.
+			  <Link to="/home/list">My link</Link>
             </p>
           </IonCardContent>
         </IonCard>
